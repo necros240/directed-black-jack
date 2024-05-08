@@ -1,0 +1,40 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/pngwing.com.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-size: 100vh;
+}
+.background {
+    background-color: rgba(0, 0, 0, 0.61);
+    
+}
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+button:hover {
+    background-color: gold;
+    transform: scaleY(1.2)
+}
+img {
+    max-width:100px ;
+} 
